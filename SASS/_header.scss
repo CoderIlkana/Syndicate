@@ -1,0 +1,106 @@
+.header{
+    // width: 100%;
+    // height: 660px;
+    // background-color: brown;
+    .carouselExampleControls{
+        width: 100%;
+    }
+.img1{
+    width: 100%;
+    height: 660px;
+    background-image: url('../IMGS/slide1.jpg') ;
+    background-size: cover ;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    p{
+        font-size: 53px ;
+        color: white;
+    }
+
+    button{
+        padding: 10px;
+        color: white;
+        background-color: rgb(0, 183, 255);
+        border: none;
+        position: absolute;
+       bottom: 11%;
+    }
+}
+
+.img2{
+    width: 100%;
+    height: 660px;
+    background-image: url('../IMGS/slide2.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    p{
+        font-size: 53px ;
+        color: white;
+    }
+
+    button{
+        padding: 10px;
+        color: white;
+        background-color: rgb(0, 183, 255);
+        border: none;
+        position: absolute;
+       bottom: 11%;
+    }
+
+}
+
+.img3{
+    width: 100%;
+    height: 660px;
+    background-image: url('../IMGS/slide3.jpg') ;
+    background-size: cover ;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    p{
+        font-size: 53px ;
+        color: white;
+    }
+
+    button{
+        padding: 10px;
+        color: white;
+        background-color: rgb(0, 183, 255);
+        border: none;
+        position: absolute;
+       bottom: 11%;
+    }
+
+}
+}
+
+
+.carousel-control-prev-icon {
+width: 93px;
+height: 78px;
+margin-right: 130px;
+    background-color: rgb(230, 230, 230);
+}
+
+.carousel-control-next-icon{
+    width: 78px;
+height: 78px;
+margin-left: 130px;
+    background-color: rgb(230, 230, 230);
+}
+

@@ -1,0 +1,107 @@
+.section4-5{
+    // width: 100%;
+    // height: 410px;
+    // background-color: rgb(255, 255, 255);
+    .container{
+border-bottom: 1px dashed rgb(136, 136, 136);
+    
+
+    .box6{
+        width: 100%;
+        height: 410px;
+        // background-color: chocolate;
+
+
+        h1{
+            font-size: 50px;
+            color: rgb(53, 53, 53);
+        }
+h6{
+    margin-top: 5%;
+}
+
+p{
+    margin-top: 6%;
+
+}
+        .left-box6{
+            width: 100%;
+            height: 150px;
+            // background-color: red;
+            display: flex;
+            justify-content: space-between;
+
+            .write-box{
+                width: 85%;
+                height: 150px;
+                // background-color: aqua;
+                h1{
+                    font-size: 22px;
+                }
+                h5{
+                    font-size: 16px;
+                color: rgb(192, 192, 192);
+                }
+            
+
+            }
+            .icon-people{
+                width: 60px;
+                height: 150px;
+                // background-color: gray;
+
+                i{
+                    font-size: 45px;
+                    margin-top: 25%;
+                    color: #00A9DF;
+                }
+            }
+
+          
+        }
+    }
+}
+}
+
+// /////////////////////////video-box/////////////////////////////////////////
+
+.video-box{
+    widows: 100%;
+    height: 450px;
+    // background-color: #00A9DF;
+    .row{
+display: flex;
+    
+
+    .video-div{
+        width: 100%;
+        height: 300px;
+        // background-color: aquamarine;
+
+        iframe{
+            width: 100%;
+            height:300px;
+            margin-bottom: 15%;
+        }
+    }
+
+    .write-div{
+        width: 100%;
+        height: 300px;
+        // background-color: rgb(75, 112, 100);
+        margin-top: 4%;
+        h1{
+            font-size: 50px;
+        }
+        p{
+            margin-top: 5%;
+        }
+    }
+}
+}
+
+
+
+
+
+

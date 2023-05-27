@@ -1,0 +1,88 @@
+.box-p{
+    width: 100%;
+    height: 200px;
+    background-color: #F7F8F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: rgb(105, 105, 105);
+        font-size: 56px;
+    }
+}
+
+
+
+
+
+.section1{
+    // width: 100%;
+    // height: 350px;
+    background-color: #F7F8F9;
+
+    .box1{
+        width: 100%;
+        height: 300px;
+        // background-color: burlywood;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .fa-solid{
+            font-size: 66px;
+            color: rgb(214, 213, 213);
+            &:hover{
+                color:red;
+                transition-duration: 1s;
+              
+            }
+        }
+
+        .fa-gears{
+            font-size: 66px;
+            color: rgb(214, 213, 213);
+            &:hover{
+                color: yellow;
+                transition-duration: 1s;
+            }
+        }
+
+        .fa-eye{
+            font-size: 66px;
+            color: rgb(214, 213, 213);
+            &:hover{
+                color: #8DC838;
+                transition-duration: 1s;
+            }
+        }
+
+        .fa-truck-medical{
+            font-size: 66px;
+            color: rgb(214, 213, 213);
+            &:hover{
+                color:#00A9DF;
+                transition-duration: 1s;
+            }
+        }
+        h1{
+            color: rgb(88, 88, 88);
+            margin-top: 9%;
+            font-size: 20px;
+        }
+        h5{
+            color: rgb(207, 207, 207);
+            margin-top: 3%;
+            font-size: 15px;
+        }
+        pre{
+            color: rgb(78, 78, 78);
+            font-family: sans-serif;
+            font-size: 13px;
+            margin-top: 2%;
+
+        }
+    }
+}
+
+

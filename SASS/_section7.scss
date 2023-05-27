@@ -1,0 +1,48 @@
+.section7 {
+    padding: 70px;
+    .box{
+        width: 100%;
+        height: 250px;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: .5s;
+        img{
+            width: 100%;
+            height: 100%;
+            
+            transition: transform .5s linear;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        &::before{
+            transition: .5s;
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            right: 0;
+            background-color: #25272B;
+            width: 100%;
+            height: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: 700;
+            z-index: 22;
+
+        }
+      
+        &:hover::before{
+            content: 'Click Me ' !important;
+            height: 50px !important;
+           
+        }
+       
+
+      
+
+    }
+
+}
